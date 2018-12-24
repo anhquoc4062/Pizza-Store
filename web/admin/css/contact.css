@@ -1,0 +1,12 @@
+.unread.checked:hover {
+  background: #ddd;
+}
+
+.email {
+    width: 300px;
+}
+
+.datecontact {
+  text-align: right;
+  width: 20px;
+}

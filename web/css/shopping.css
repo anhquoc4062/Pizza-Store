@@ -1,0 +1,36 @@
+body{
+	position: relative;
+}
+.product-buy-now{
+	position: absolute;
+	z-index: 999999999999;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+	transition: all 1s ease;
+	animation: Ani 2.0s;
+	opacity: 1;
+}
+@keyframes Ani {
+    0%   {transform:scale(0.4);}
+    25%  {transform:scale(1); }
+    50%  {transform:scale(1); }
+    100% {transform:scale(0.2); }
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+input.checkout-button.button.alt.wc-forward.btn.btn-primary {
+    border-radius: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+input.checkout-button.button.alt.wc-forward.btn.btn-primary:hover {
+    background: #ed1a3b;
+}

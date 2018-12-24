@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+table.list {
+    border: solid 1px white;
+    width: 100%;
+}
+
+.main-content {
+    background: url(../images/background2.jpg);
+}
+
+.list td {
+    border: solid 2px white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content h1 {
+    color: #0069a8;
+    text-align: center;
+    padding: 74px;
+    font-size: 60px;
+}
+
+.table-quanly {margin-bottom: 100px;}
+
+.table-quanly .row {
+    border: 1px solid white;
+}
+
+ul.menu-quanly {color: white;list-style: none;}
+
+.menu-quanly li {
+    float: left;
+    padding: 20px 30px;
+    margin: 0px 117px;
+}
+
+
+.table-quanly .right {
+    border-left: 2px solid white;
+    height: 600px;
+}
+
+table.add-product {margin: -2px -16px;}
+
+.add-product tr {
+    color: white;
+}
+
+.add-product input.btn.btn-default {
+    margin-bottom: 0px;
+    font-size: 15px;
+    padding: 10px;
+    width: 147px;
+}
+
+
+.add-product td {
+    border: 2px solid white;
+    padding: 10px 33px;
+    text-align: center;
+    border-right: none;
+}
+
+.add-product input[type="text"] {
+    color: black;
+    height: 30px;
+}
+
+.add-product select {
+    width: 221px;
+    height: 34px;
+}
+
+.add-product th {
+    border-bottom: 2px white solid;
+    text-align: center;
+    width: 99px;
+}
+
+.list th {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.wrapper-table {
+    position: relative;
+    margin-top:78px;
+    border: 2px white solid;
+}
+
+.scroll-table {
+    overflow: auto;
+    height: 500px;
+}
+
+span.alert {
+    padding: 0px 3px;
+    height: 8px;
+    font-size: 0px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 80px;
+    opacity: 0.8;
+}

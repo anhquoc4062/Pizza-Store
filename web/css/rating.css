@@ -1,0 +1,73 @@
+.rating-wrap-post .fa.highlight {
+    color: #f39c12;
+}
+
+
+.product-rating {
+  position: relative;
+  width: 800px;
+  margin: 30px;
+  margin-left: 47px;
+}
+.scroll-rating {
+  overflow: scroll;
+  height: 300px;
+  overflow-x: hidden;
+  border: 1px solid white;
+}
+.nhanxet {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+.sosao {
+  color: #f39c12;
+  margin-bottom: 11px;
+  margin-top: -9px;
+}
+
+.nhanxet .username {
+  color: #ed1a3b;
+  float: left;
+  margin-right: 12px;
+}
+.nhanxet .loinhanxet {
+  font-size: 15px;
+  color: #ddd;
+}
+.nhanxet .ngaydang {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 28px;
+  margin-bottom: -6px;
+}
+
+.product-rating h3 {
+  font-family: 'Roboto Slab', serif;
+  margin: 33px 0px;
+}
+
+.notlogin .btn.btn-primary {
+  background-color: #ed1a3b;
+  border-radius: 0px;
+  padding: 15px 33px;
+  font-size: 16px;
+  border: none;
+  margin-left: 106px;
+}
+.notlogin .btn.btn-primary:hover {
+  background: #0069a8;
+}
+.notlogin .alert {
+  text-align: center;
+  padding: 14px 45px;
+}
+
+input.checkout-button.button.alt.wc-forward {
+    border-radius: 0px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+input.checkout-button.button.alt.wc-forward:hover {
+    background: #ed1a3b;
+}

@@ -1,0 +1,133 @@
+.login {
+    width: 300px;
+    text-align: CENTER;
+    background: #efe6e6;
+    height: 350px;
+}
+
+.login h4 {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login label {
+    margin-right: 5px;
+}
+
+.login input {
+    margin-bottom: 14px;
+    height: 50px;
+}
+
+.login {
+    width: 36%;
+    z-index: 3;
+    margin-left: 32%;
+    top: 350px;
+    border-radius: 5px;
+    height: 470px;
+    box-shadow: 3px 2px #403e3e4a;
+    transition: all 0.4s;
+}
+
+.icon-login {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #d6d1d1;
+    line-height: 50px;
+    margin-right: -6px;
+}
+
+.login .btn.btn-primary {
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 17px;
+    margin-bottom: 25px;
+    border: none;
+    background: #0069a8;
+}
+
+.login a.btn.btn-success {
+    width: 344px;
+    text-align: center;
+    font-size: 20px;
+    height: 60px;
+    border: none;
+    background: #ed1a3b;
+    padding-top: 17px;
+}
+
+.login .btn.btn-primary:hover {
+    opacity: 0.7;
+}
+
+.login a.btn.btn-success:hover {
+    opacity: 0.7;
+}
+
+.login.hien-login{
+    opacity: 1;
+    display: block;
+}
+
+.user-menu p {
+  color: #ddd;
+  text-align: right;
+  margin-top: -29px;
+  margin-right: -235px;
+}
+
+
+.dangky {
+  width: 600px;
+  height: 950px;
+  margin-left: 27%;
+}
+.dangky th {
+  text-align: right;
+  padding: 13px;
+  padding-top: 2px;
+}
+.username {
+}
+.dangky table {
+  margin: auto;
+}
+.dangky input {
+  width: 336px;
+}
+.dangky select {
+  border: none;
+  width: 335px;
+  height: 50px;
+  margin-bottom: 13px;
+  color: #a59c9c;
+  padding: 10px;
+}
+
+.dangky input.btn.btn-success {
+    width: 344px;
+    text-align: center;
+    margin-top: 37px;
+    font-size: 20px;
+    height: 60px;
+    border: none;
+    background: #ed1a3b;
+}
+.dangky input.btn.btn-success:hover {
+    opacity: 0.7;
+}
+
+.dangky h4{
+    padding-bottom: 5px;
+}
+
+.quenmatkhau.login {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+}

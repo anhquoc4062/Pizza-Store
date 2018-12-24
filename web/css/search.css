@@ -1,0 +1,94 @@
+.search-bar input[type="text"] {width: 400px;height: 50px;border-bottom-left-radius: 10px;border-top-left-radius: 10px;}
+
+.search-bar {padding-right: 65px;margin-top: -40px;position: relative;z-index: 3;}
+
+.search-bar a {
+    float: right;
+}
+
+.search-button {
+    background: #dcdde1;
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border: none;
+    border-top-right-radius: 10px;
+    margin-left: -5px;
+    height: 49px;
+    margin-bottom: 38px;
+}
+
+.search-list {
+    background: white;
+    margin-left: 562px;
+    margin-right: 170px;
+    margin-top: -45px;
+    padding-top: 0px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.search-list ul {
+    list-style: none;
+}
+
+.search-list li {
+    padding-right: 26px;
+    border-bottom: 1px solid #0000002e;
+    width: 399px;
+}
+
+.info {
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 13px;
+    margin-top: -1px;
+}
+
+.search-list img {
+    margin-top: -59px;
+}
+
+.search-list p {
+    margin: 0;
+    margin-top: 3px;
+    color: #0069a8;
+    font-size: 18px;
+}
+
+.search-list li:hover {
+    background: #80808024;
+}
+
+.sanpham h6 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #ed1a3b;
+}
+
+.sanpham .sao {
+    color: #e1b12c;
+}
+
+.sanpham {
+    padding-top: 21px;
+    padding-left: 11px;
+}
+
+.search-list li#none-search {
+    display: none;
+    border: none;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.search-list p.product-name {
+    color: #ed1a3b;
+}
+
+p.thongbao_search {
+    font-size: 18px;
+}
